@@ -1,0 +1,23 @@
+# Main load testing library
+locustio==0.7.5
+
+
+# Transitive libraries
+# This is needed so there are no version conflicts when
+# one downstream library does NOT specify the version it wants,
+# and another one does.
+
+# From locustio
+Jinja2==2.9.6
+MarkupSafe==1.0
+Werkzeug==0.12.2
+certifi==2017.4.17
+chardet==3.0.4
+flask==0.12.2
+gevent==1.1.1
+greenlet==0.4.12
+idna==2.5
+itsdangerous==0.24
+msgpack-python==0.4.8
+requests==2.18.1
+urllib3==1.21.1
