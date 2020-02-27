@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-locustio = ">=0.11.0,<0.12.0"
-pyyaml = ">=5.1,<6.0"
+locustio = "~=0.11.0"
+pyyaml = "~=5.1"
 
 [dev-packages]
 
