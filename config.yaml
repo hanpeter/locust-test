@@ -1,5 +1,5 @@
-min_wait: 1000
-max_wait: 3000
+min_wait: 1
+max_wait: 3
 postman-echo.com:
   /get:
     method: GET
