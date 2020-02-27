@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 from os import path
-from locust_files.version import __version__
+from locust_runner.version import __version__
 
 try:
     with open(path.join(path.dirname(__file__), 'README.md')) as f:
