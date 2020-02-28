@@ -14,7 +14,7 @@ setup(
     name='locust-runner',
     version=__version__,
     author='Peter Han',
-    author_email='git@peterhan.me',
+    author_email='git@peterhan.ca',
     description='Runner for Locust.io load testing tool',
     long_description=long_description,
     url='https://github.com/hanpeter/locust-runner',
@@ -24,15 +24,15 @@ setup(
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        # TODO: Test and support more versions of Python
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Software Development :: Testing',
     ],
     install_requires=[
         'locustio'
     ],
-    # TODO: Test and support more versions of Python
-    python_requires='==2.7.*',
+    python_requires='~=3.8',
     # Make sure the license file is packaged up too
     include_package_data=True,
 )
