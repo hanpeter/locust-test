@@ -11,6 +11,8 @@ locustio = "==0.13.0"
 pyyaml = "~=5.3"
 
 [dev-packages]
+pytest = "*"
+pycodestyle = "*"
 
 [requires]
 python_version = "3.8"
