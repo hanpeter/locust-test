@@ -1,6 +1,11 @@
+# min_wait and max_wait go on to create wait_time config
+# https://docs.locust.io/en/latest/api.html#locust.core.Locust.wait_time
+# Measured in seconds
 min_wait: 1
 max_wait: 3
 postman-echo.com:
+  # Make sure to prefix your path with /
+  # This is there to support base path (i.e. postman-echo.com/)
   /get:
     method: GET
     headers:
