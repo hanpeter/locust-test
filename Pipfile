@@ -8,7 +8,7 @@ name = "pypi"
 #      I don't want to force installing pre-release versions of library, so lock
 #      `locustio` to 0.13.0 for now.
 locustio = "==0.13.0"
-pyyaml = "~=5.3"
+pyyaml = "~=5.4"
 
 [dev-packages]
 pytest = "*"
